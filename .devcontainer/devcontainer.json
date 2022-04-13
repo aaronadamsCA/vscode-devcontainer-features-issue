@@ -3,6 +3,11 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
+  "features": {
+    "node": {
+      "version": "none"
+    }
+  },
   "remoteUser": "vscode",
   "postCreateCommand": ".devcontainer/install.sh",
 }

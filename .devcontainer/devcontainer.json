@@ -1,8 +1,8 @@
 {
-  "name": "vscode-devcontainer-features-issue",
+  "name": "vscode-devcontainer-node-script-issue",
   "build": {
     "dockerfile": "Dockerfile"
   },
+  "remoteUser": "vscode",
   "postCreateCommand": ".devcontainer/install.sh",
-  "remoteUser": "vscode"
 }
